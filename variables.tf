@@ -4,7 +4,6 @@ variable "container_name" {
   default     = "ghost_blog"
 }
 variable "image_name" {
-  type        = "map"
   description = "Image for container."
   default     = "ghost:latest"
 }
