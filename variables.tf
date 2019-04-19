@@ -1,5 +1,8 @@
 #Define variables
-variable "container_name" {}
+variable "container_name" {
+  description = "Name of the container."
+  default     = "ghost_blog"
+}
 variable "image_name" {}
 variable "int_port" {
   description = "Internal port for container."
