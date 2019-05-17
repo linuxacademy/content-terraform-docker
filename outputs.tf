@@ -1,5 +1,5 @@
 #Output the IP Address of the Container
-output "IP Address" {
+output "ip" {
   value       = "${docker_container.container_id.ip_address}"
   description = "The IP for the container."
 }
